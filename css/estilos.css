@@ -1,0 +1,120 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu&display=swap');
+
+    
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+select{
+    border: none;
+    background-color: #333;
+    width: 100%;
+    text-align: center;
+    color:white;
+    height: 30px;
+    margin:5px;
+    border-radius: 5px;
+}
+
+
+body {
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body iframe {
+   
+    padding-top: 0px;
+    padding-left: 0px;
+    border: none;
+}
+
+header {
+    width:100%;
+    height:70px;
+    background: #333;
+    color: #fff;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+
+header img {
+    height: 55px;
+    padding-top: 14px;
+    padding-left: 1em;
+}
+
+.contenedor {
+    width: 100%;
+    margin: auto;
+}
+
+
+h1 {
+    float: left;
+}
+
+h2 {
+    color: white;
+}
+
+header .contenedor {
+    display: block;
+}
+
+section {
+    width: 100%;
+    margin-bottom: 0px;
+}
+#bienvenido {
+    text-align: center;
+    line-height: 40px;
+    padding: 10px;
+    background-color: #333;
+}
+
+#bienvenido H2{
+    font-size: 30px;
+}
+
+footer .contenedor {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 25px;
+}
+
+.copy {
+    font-size: 15px;
+}
+
+.sociales {
+    width: 100%;
+    text-align: left;
+    font-size 28px;
+}
+
+.sociales img{
+    padding-left:20%;
+}
+
+.sociales a {
+    color: #333;
+    text-decoration: none;
+}
+
+@media (min-width:1272px) {
+    .contenedor {
+        width: 88%;
+    }
+}
+
+@media (min-width:768px){
+    #bienvenido .contenedor {
+        width: 500px;
+    }
+}
